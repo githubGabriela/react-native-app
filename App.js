@@ -8,6 +8,7 @@ export default class App extends React.Component {
         <Text>This app is working!!!</Text>
           <Text>Happy girl!!!!</Text>
           <Text>Testing</Text>
+          <Text>Testing 3 </Text>
           
       </View>
     );
