@@ -1,20 +1,16 @@
-//import liraries
 import React, { Component } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-// create a component
-class ProductDetail extends Component {
- 
+class CreateProduct extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <Text>ProductDetail </Text>
+                <Text>CreateProduct</Text>
             </View>
         );
     }
 }
 
-// define your styless
 const styles = StyleSheet.create({
     container: {
         flex: 1,
@@ -24,5 +20,4 @@ const styles = StyleSheet.create({
     },
 });
 
-//make this component available to the app
-export default ProductDetail;
+export default CreateProduct;

@@ -3,18 +3,17 @@ import React, { Component } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
 // create a component
-class ProductDetail extends Component {
- 
+class CreateCategory extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <Text>ProductDetail </Text>
+                <Text>CreateCategory</Text>
             </View>
         );
     }
 }
 
-// define your styless
+// define your styles
 const styles = StyleSheet.create({
     container: {
         flex: 1,
@@ -25,4 +24,4 @@ const styles = StyleSheet.create({
 });
 
 //make this component available to the app
-export default ProductDetail;
+export default CreateCategory;
