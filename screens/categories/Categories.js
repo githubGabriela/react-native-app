@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-class CreateProduct extends Component {
+class Categories extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <Text>CreateProduct</Text>
+                <Text>Categories</Text>
             </View>
         );
     }
@@ -20,4 +20,4 @@ const styles = StyleSheet.create({
     },
 });
 
-export default CreateProduct;
+export default Categories;

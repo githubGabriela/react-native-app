@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { View, ScrollView, Text, StyleSheet } from 'react-native';
 import { FlatList } from 'react-native';
 
-import { products } from '../config/data';
+import { data } from '../config/data';
 
 class ShoppingList extends Component {
     goToDetail = (item) => {
@@ -12,11 +12,7 @@ class ShoppingList extends Component {
     render() {
         return (
         <View style={styles.container}>
-            <FlatList data={products}
-            renderItem={({item}) =>
-            <Text style={styles.item} onPress={() => this.goToDetail(item)}
-            >{item.key}</Text>}
-            />
+            <Text> ShoppingList </Text>
       </View>
         );
     }

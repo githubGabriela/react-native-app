@@ -1,19 +1,19 @@
 import React from 'react';
 import { TabNavigator, StackNavigator } from 'react-navigation';
 
-import  CreateProduct  from '../products/CreateProduct';
-import  CreateCategory  from '../categories/CreateCategory';
+import  AdminProducts  from './AdminProducts';
+import  AdminCategories  from './AdminCategories';
 
 
 export const AdminTabs = TabNavigator({
-    CreateProduct: {
-        screen: CreateProduct,
+    AdminProducts: {
+        screen: AdminProducts,
         navigationOptions: {
             tabBarLabel: 'Products'
         }
     }, 
-    CreateCategory: {
-        screen: CreateCategory,
+    AdminCategories: {
+        screen: AdminCategories,
         navigationOptions: {
             tabBarLabel: 'Categories'
         }
